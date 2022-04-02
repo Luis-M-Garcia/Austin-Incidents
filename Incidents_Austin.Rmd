@@ -1,0 +1,27 @@
+---
+title: "Incidents in Austin"
+author: "Luis Garcia"
+date: "3/31/2022"
+output: html_document
+---
+## Introduction
+  I am conducting an analysis of Austin incidents to see if we should hire more paramedics and if so, when. I did this by analyzing 10 years worth of incident reporting in Austin that I got from data.gov
+
+## Methods
+  The data was coded in with month keys and thus I had to do some work in order to make those month keys into actual months so that I could analyze trends over the years. I then grouped the months into their respective seasons to show the average amount of incidents during those seasons. I also displayed the trend of incidents over the years by season by grouping the months to their seasons and using the year variable that I made. 
+  
+## Results
+
+  The trend over the years show that incidents were going on the rise from 2010 to 2016. This may be due to migration increasing the number of people that live in the city every year. Another trend was that incidents took a dip from 2016 to around 2019 before going on the rise again.
+
+![](Seasons_plot.png)
+
+  
+  The bar chart shows that all four seasons have roughly the same amount of incidents, give or take 10k each.
+
+![](incidents_barplot.png)
+
+## Conclusion
+
+  Given that all seasons had roughly the same amount of incidents, I don't believe that hiring more health care workers during any specific season. However, given that the amount of incidents per season is on the rise, I do believe that more health care workers should be hired year-round to keep up with the rise of incidents.
+
